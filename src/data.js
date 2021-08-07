@@ -15,7 +15,7 @@ const menu = [
     price: 550,
     img: 'https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/s1080x2048/153903374_4115187945167558_6101356364219278680_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=825194&_nc_ohc=UOOHiZgbv2gAX9W6XnG&_nc_oc=AQkP0ggzHZsmUrEidWiBXzryV-M9L2BDUUJRWFT1w3NJ2abGJs-vEVnX0mzLveFNZ-mHafZMDgqm2equ63OsLoNj&_nc_ht=scontent.ftpe7-4.fna&oh=3106a88c3307c34e9d36354148f34bcc&oe=61319C44',
     desc: `6”重乳酪💰550（照片是6吋）
-8”重乳酪💰800`,
+8”重乳酪💰800，你絕對不能錯過的松菓重乳酪蛋糕`,
   },
   {
     id: 30,
@@ -63,15 +63,7 @@ const menu = [
 食用前建議退成常溫口感最佳喔😊
 `,
   },
-  {
-    id: 25,
-    title: '6”松菓重乳酪蛋糕',
-    category: '冷藏蛋糕',
-    price: 550,
-    img: 'https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/s1080x2048/153903374_4115187945167558_6101356364219278680_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=825194&_nc_ohc=UOOHiZgbv2gAX9W6XnG&_nc_oc=AQkP0ggzHZsmUrEidWiBXzryV-M9L2BDUUJRWFT1w3NJ2abGJs-vEVnX0mzLveFNZ-mHafZMDgqm2equ63OsLoNj&_nc_ht=scontent.ftpe7-4.fna&oh=3106a88c3307c34e9d36354148f34bcc&oe=61319C44',
-    desc: `6”重乳酪💰550（照片是6吋）/
-8”重乳酪💰800`,
-  },
+
   {
     id: 24,
     title: '起司莓莓',
@@ -863,6 +855,15 @@ const menu = [
 祝兩位雙胞胎小男孩生日快樂，一生平安健康
 你最喜歡什麼裝飾呢？
 我最喜歡後面的小火山🌋`,
+  },
+  {
+    id: 25,
+    title: '6”松菓重乳酪蛋糕',
+    category: '冷藏蛋糕',
+    price: 550,
+    img: 'https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/s1080x2048/153903374_4115187945167558_6101356364219278680_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=825194&_nc_ohc=UOOHiZgbv2gAX9W6XnG&_nc_oc=AQkP0ggzHZsmUrEidWiBXzryV-M9L2BDUUJRWFT1w3NJ2abGJs-vEVnX0mzLveFNZ-mHafZMDgqm2equ63OsLoNj&_nc_ht=scontent.ftpe7-4.fna&oh=3106a88c3307c34e9d36354148f34bcc&oe=61319C44',
+    desc: `6”重乳酪💰550（照片是6吋）/
+8”重乳酪💰800 你絕對不能錯過的松菓重乳酪蛋糕`,
   },
   {
     id: 31,
