@@ -22,8 +22,12 @@ const About = () => {
         <h4>訂購須知:</h4>
         <p className='warning'>💡訂購資料：日期/姓名/聯絡電話/面交時間</p>
         <p className='warning'>
-          💡 面交地點： 1.象山捷運站（2號出口） <br />
-          2.全家祥和店（110台北市信義區信義路五段150巷401弄31號）
+          💡 面交地點：
+          <ul>
+            <li>1.象山捷運站（2號出口）</li>
+            <li> 2.全家祥和店（110台北市信義區信義路五段150巷401弄31號）</li>
+          </ul>
+          <br />
         </p>
         <p className='warning'>
           💡客製蛋糕固定是在「全家祥和店（110台北市信義區信義路五段150巷401弄31號）」
@@ -72,6 +76,9 @@ const Wrapper = styled.section`
     padding: 2rem;
     background-color: var(--clr-grey-5);
     border-radius: 30px;
+    ul {
+      margin-left: 1rem;
+    }
     h4 {
       color: var(--clr-grey-3);
     }
