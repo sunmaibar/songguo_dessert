@@ -19,7 +19,7 @@ const About = () => {
         </a>
       </div>
       <div className='detail'>
-        <h4>訂購須知:</h4>
+        <h3>訂購須知:</h3>
         <p className='warning'>💡訂購資料：日期/姓名/聯絡電話/面交時間</p>
         <p className='warning'>
           💡 面交地點：
@@ -70,7 +70,7 @@ const Wrapper = styled.section`
   }
   .detail {
     display: block;
-    width: 60vw;
+    /* width: 60vw; */
     margin: 0 auto;
     margin-top: 3rem;
     padding: 2rem;
@@ -79,13 +79,17 @@ const Wrapper = styled.section`
     ul {
       margin-left: 1rem;
     }
-    h4 {
-      color: var(--clr-grey-3);
+    h3 {
+      color: var(--clr-white);
+      margin-bottom: 2rem;
     }
     .warning {
       text-align: left;
-      margin-top: 0;
+      margin: 0.3rem;
       color: var(--clr-white);
+      ul {
+        padding: 0;
+      }
     }
   }
 `
